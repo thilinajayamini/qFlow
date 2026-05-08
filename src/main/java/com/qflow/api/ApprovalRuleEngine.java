@@ -36,6 +36,9 @@ import com.qflow.model.ActionType;
  * <pre>{@code
  * manager.registerRuleEngine(new ProductRuleEngine());
  * }</pre>
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public interface ApprovalRuleEngine {
 

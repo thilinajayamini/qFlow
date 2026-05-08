@@ -26,6 +26,9 @@ package com.qflow.api;
  *
  * <p>If no config is registered for an entity type,
  * {@link com.qflow.service.ApprovalManager} defaults to <strong>1</strong> level.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public interface ApprovalWorkflowConfig {
 

@@ -24,6 +24,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * <p>Each test runs in its own transaction which is rolled back afterwards,
  * keeping tests fully isolated.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 @DisplayName("ApprovalManager Integration Tests")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

@@ -33,6 +33,10 @@ import java.util.UUID;
         @Index(name = "idx_cr_status",   columnList = "status"),
         @Index(name = "idx_cr_requester", columnList = "requested_by")
 })
+/**
+ * @author Thilina Jayamini
+ * @since 2026-05-08
+ */
 public class ChangeRequest implements Serializable {
 
     @Id

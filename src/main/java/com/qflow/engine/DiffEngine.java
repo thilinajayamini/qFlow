@@ -26,6 +26,9 @@ import java.util.Objects;
  * BigDecimal, nested objects) are represented faithfully.
  *
  * <p>Thread-safety: {@code DiffEngine} is stateless and safe to share.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public final class DiffEngine {
 

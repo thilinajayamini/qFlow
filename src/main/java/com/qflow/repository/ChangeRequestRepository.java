@@ -17,6 +17,9 @@ import java.util.Optional;
  * {@code @Repository}, or simply inject it from a CDI context.
  *
  * <p>Transaction management is the caller's responsibility.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public class ChangeRequestRepository {
 

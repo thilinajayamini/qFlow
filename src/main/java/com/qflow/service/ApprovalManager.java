@@ -44,6 +44,9 @@ import java.util.Optional;
  *
  * <p><strong>Transaction management</strong> is the caller's responsibility.
  * Wrap all calls in appropriate JPA transactions.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public class ApprovalManager {
 

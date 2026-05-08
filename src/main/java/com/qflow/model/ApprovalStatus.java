@@ -17,6 +17,9 @@ package com.qflow.model;
  *         │
  *         └──► REJECTED
  * </pre>
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public enum ApprovalStatus {
 

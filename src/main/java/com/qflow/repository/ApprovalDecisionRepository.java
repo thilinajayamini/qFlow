@@ -12,6 +12,9 @@ import java.util.List;
  *
  * <p>Provides access to the per-level audit records for any given
  * change request. Transaction management is the caller's responsibility.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public class ApprovalDecisionRepository {
 

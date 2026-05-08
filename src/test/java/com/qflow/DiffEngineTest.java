@@ -15,6 +15,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * Unit tests for {@link DiffEngine}.
  *
  * <p>These tests are purely in-memory — no JPA or database is involved.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 @DisplayName("DiffEngine")
 class DiffEngineTest {

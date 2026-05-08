@@ -26,6 +26,9 @@ import java.lang.annotation.Target;
  *     private String internalCode; // not tracked
  * }
  * }</pre>
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

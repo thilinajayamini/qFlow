@@ -10,6 +10,9 @@ import java.math.BigDecimal;
  *
  * <p>This class intentionally lives in the {@code test} source tree to
  * demonstrate how a library consumer would implement {@link Approvable}.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public class Product implements Approvable {
 

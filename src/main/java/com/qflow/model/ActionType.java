@@ -2,6 +2,9 @@ package com.qflow.model;
 
 /**
  * Describes the type of action that triggered the approval workflow.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public enum ActionType {
 

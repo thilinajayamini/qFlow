@@ -17,6 +17,18 @@
         JPA-based audit persistence.
     </description>
 
+    <developers>
+        <developer>
+            <id>thilinajayamini</id>
+            <name>Thilina Jayamini</name>
+            <email>thilinajayamini@gmail.com</email>
+            <organization>Individual</organization>
+            <roles>
+                <role>Lead Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
         <java.version>25</java.version>
         <maven.compiler.source>25</maven.compiler.source>

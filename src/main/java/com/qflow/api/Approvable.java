@@ -28,6 +28,9 @@ package com.qflow.api;
  *     }
  * }
  * }</pre>
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public interface Approvable {
 

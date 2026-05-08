@@ -18,6 +18,9 @@ import java.util.List;
  * For CREATE workflows it deserialises the full JSON snapshot onto the entity.
  *
  * <p>Thread-safety: {@code EntityApplier} is stateless and safe to share.
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 public final class EntityApplier {
 

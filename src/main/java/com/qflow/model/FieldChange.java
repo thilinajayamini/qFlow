@@ -18,6 +18,9 @@ import java.io.Serializable;
  *   oldValue  : "100.00"
  *   newValue  : "120.00"
  * </pre>
+ *
+ * @author Thilina Jayamini
+ * @since 2026-05-08
  */
 @Embeddable
 public class FieldChange implements Serializable {

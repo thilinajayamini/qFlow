@@ -20,6 +20,10 @@ import java.util.UUID;
         @Index(name = "idx_ad_change_request", columnList = "change_request_id"),
         @Index(name = "idx_ad_approver",        columnList = "approver_id")
 })
+/**
+ * @author Thilina Jayamini
+ * @since 2026-05-08
+ */
 public class ApprovalDecision implements Serializable {
 
     @Id
