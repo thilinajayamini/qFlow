@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+    <persistence-unit name="qflow-test" transaction-type="RESOURCE_LOCAL">
+        <description>In-memory H2 persistence unit for qFlow integration tests</description>
+
+        <!-- qFlow JPA entities -->
+        <class>com.qflow.model.ChangeRequest</class>
+        <class>com.qflow.model.ApprovalDecision</class>
+        <class>com.qflow.model.FieldChange</class>
+
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <!-- H2 in-memory database -->
+            <property name="jakarta.persistence.jdbc.driver"   value="org.h2.Driver"/>
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:h2:mem:qflow_test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE"/>
+            <property name="jakarta.persistence.jdbc.user"     value="sa"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+
+            <!-- Hibernate dialect & DDL -->
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.H2Dialect"/>
+            <property name="hibernate.hbm2ddl.auto"           value="create-drop"/>
+            <property name="hibernate.show_sql"               value="false"/>
+            <property name="hibernate.format_sql"             value="false"/>
+
+            <!-- Connection pool (basic) -->
+            <property name="hibernate.connection.pool_size"   value="5"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
